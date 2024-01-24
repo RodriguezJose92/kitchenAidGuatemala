@@ -253,8 +253,7 @@ async function serverData ({
 
   MudiExperience({
     tokenApi:'cx8Xa2Nc5usuMffUt5gb',
-    //skuNumber:document.querySelector('.vtex-product-identifier-0-x-product-identifier__value').innerHTML,
-    skuNumber:'pruebaGuatemala',
+    skuNumber:document.querySelector('.vtex-product-identifier-0-x-product-identifier__value').innerHTML,
     idCompanyMudi:397,
     color:'#c41230',
     containerBtns:document.querySelector('.vtex-store-components-3-x-productImagesGallerySwiperContainer'),
