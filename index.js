@@ -260,7 +260,6 @@ setTimeout(()=>{
         containerBtns:document.querySelector('.vtex-store-components-3-x-productImagesGallerySwiperContainer'),
         zIndexModal:1000000,
       });
-
     console.log('experiencieMudi');
-},5000)
+},5000);
   
