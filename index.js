@@ -251,8 +251,8 @@ async function serverData ({
     sendDataLayer({sku:skuNumber})
   };
 
-setTimeout(()=>{}
-    MudiExperience({
+setTimeout(()=>{
+     MudiExperience({
         tokenApi:'cx8Xa2Nc5usuMffUt5gb',
         skuNumber:document.querySelector('.vtex-product-identifier-0-x-product-identifier__value').innerHTML+"_GUAT",
         idCompanyMudi:397,
@@ -262,5 +262,5 @@ setTimeout(()=>{}
       });
 
     console.log('experiencieMudi');
-,5000)
+},5000)
   
